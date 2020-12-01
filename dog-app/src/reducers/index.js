@@ -1,98 +1,95 @@
 const initialState = {
     miniatureDogs : [
         {
+            id:'1',
             name:"Bichon Frise",
             weight_min:"3 kg",
             weight_max:"6 kg",
-            diet: [
-                {
-                    puppy: "Brit"
-                }
-            ]
+            image:'https://dogtime.com/assets/uploads/2011/01/file_23136_bichon-frise-460x290.jpg',
+  
         },
         {
+            id:'2',
             name:"Chihuahua",
             weight_min:"1 kg",
             weight_max:"3 kg",
-            diet: [
-                ''
-            ]
+            image:'https://dogtime.com/assets/uploads/2011/01/file_23102_chihuahua-460x290.jpg',
+
         },
         {
+            id:'3',
             name:"Grzywacz Chiński",
             weight_min:"2 kg",
             weight_max:"5 kg",
-            diet: [
-                ''
-            ]
+            image:'https://dogtime.com/assets/uploads/2011/01/file_23104_17524831.jpg',
+
         },
         {
+            id:'4',
             name:"Jamnik",
             weight_min:"4 kg",
             weight_max:"5 kg",
-            diet: [
-                ''
-            ]
+            image:'https://dogtime.com/assets/uploads/2011/01/file_23020_dachshund-dog-breed-300x189.jpg',
+  
         },
         {
+            id:'5',
             name:"Charcik Włoski",
             weight_min:"3 kg",
             weight_max:"5 kg",
-            diet: [
-                ''
-            ]
+            image:'https://dogtime.com/assets/uploads/2011/01/file_23110_italian-greyhound-300x189.jpg',
+
         },
         {
+            id:'6',
             name:"Maltańczyk",
             weight_min:"2 kg",
             weight_max:"3 kg",
-            diet: [
-                
-            ]
+            image:'https://dogtime.com/assets/uploads/2011/01/file_23114_maltese-300x189.jpg',
+ 
         },
         {
+            id:'7',
             name:"Papillion",
             weight_min:"2 kg",
             weight_max:"5 kg",
-            diet: [
-                ''
-            ]
+            image:'https://dogtime.com/assets/uploads/2011/01/file_23118_papillon-300x189.jpg',
+
         },
         {
+            id:'8',
             name:"Pekińczyk",
             weight_min:"3 kg",
             weight_max:"6 kg",
-            diet: [
-                ''
-            ]
+            image:'https://dogtime.com/assets/uploads/2011/01/file_23120_pekingese-300x189.jpg',
+
         },
         {
+            id:'9',
             name:"Pomeranian",
             weight_min:"2 kg",
             weight_max:"3 kg",
-            diet: [
-                ''
-            ]
+            image:'https://dogtime.com/assets/uploads/2011/01/file_23122_pomeranian-300x189.jpg',
+
         },
         {
+            id:'10',
             name:"Pudel Miniaturowy",
             weight_min:"3 kg",
             weight_max:"7 kg",
-            diet: [
-                ''
-            ]
+            image:'https://dogtime.com/assets/uploads/2011/01/file_23200_poodle-300x189.jpg',
+
         },
         {
+            id:'11',
             name:"Yorkshire Terrier",
             weight_min:"2 kg",
             weight_max:"3 kg",
-            diet: [
-                ''
-            ]
+            image:'https://dogtime.com/assets/uploads/2011/01/file_23132_yorkshire-terrier-300x189.jpg',
         }
 
     ],
-    smallDogs: [
+    smallDogs : [
         {
             name:"Basenji",
             weight_min:"9 kg",
@@ -334,7 +331,7 @@ const initialState = {
             ]
         },
     ],
-    mediumDogs: [
+    mediumDogs : [
         {
             name:"Airedale Terrier",
             weight_min:"20 kg",
@@ -520,7 +517,7 @@ const initialState = {
             ]
         },
     ],
-    largeDogs: [
+    largeDogs : [
         {
             name:"Chart Afgański",
             weight_min:"23 kg",
@@ -802,7 +799,7 @@ const initialState = {
             ]
         },
     ],
-    giantDogs: [
+    giantDogs : [
         {
             name:"Bloodhound",
             weight_min:"36 kg",

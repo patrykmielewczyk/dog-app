@@ -1,0 +1,39 @@
+ul {
+    display: inline-block;
+}
+
+li {
+    display: inline-block;
+    border: 2px solid #8C3F23;
+    border-radius: 10px;
+    margin: 1rem;
+    white-space: nowrap;
+    overflow-x: hidden;
+    width: 300px;
+    height: 300px;
+    filter: grayscale(100%)
+}
+
+p {
+    margin-left: 10px;
+}
+
+a{
+    color: #8C3F23;
+}
+
+li:hover {
+    filter: grayscale(0%);
+    transition: 500ms;
+}
+
+img {
+    width: 145px;
+    height: 145px;
+    display: block;
+    margin: 10px auto;
+    object-fit: contain;
+    border: solid 2px;
+    background: white;
+    border-radius: 100%;
+}

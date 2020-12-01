@@ -1,13 +1,29 @@
+a {
+        text-decoration: none;
+}
+
 .button {
         display: block;
-        font-size: 10px;
-        text-decoration: none;
+        font-size: 16px;
         padding: 7px 12px;
         margin: 1rem;
         font-weight: 500;
         background: none;
-        border: 2px solid #1e58ff;
-        color: #1e58ff;
+        border: 2px solid #8C3F23;
+        border-radius: 10px;
+        color: #8C3F23;
         cursor: pointer;
-      
+        filter: grayscale(100%);
+}
+
+.buttonImage {
+        background: none;
+        position: relative;
+        width: 50px;
+        height: 50px;
+}
+
+.button:hover {
+        filter: grayscale(0%);
+        transition: 500ms;
 }
