@@ -1,23 +1,22 @@
 const initialState = {
     miniatureDogs : [
         {
-            id:'1',
             name:"Bichon Frise",
             weight_min:"3 kg",
             weight_max:"6 kg",
             image:'https://dogtime.com/assets/uploads/2011/01/file_23136_bichon-frise-460x290.jpg',
+            description:"ogólnie śmierdzi"
   
         },
         {
-            id:'2',
             name:"Chihuahua",
             weight_min:"1 kg",
             weight_max:"3 kg",
             image:'https://dogtime.com/assets/uploads/2011/01/file_23102_chihuahua-460x290.jpg',
+            description:"ten śmierdzi jeszcze bardziej"
 
         },
         {
-            id:'3',
             name:"Grzywacz Chiński",
             weight_min:"2 kg",
             weight_max:"5 kg",
@@ -25,7 +24,6 @@ const initialState = {
 
         },
         {
-            id:'4',
             name:"Jamnik",
             weight_min:"4 kg",
             weight_max:"5 kg",
@@ -33,7 +31,6 @@ const initialState = {
   
         },
         {
-            id:'5',
             name:"Charcik Włoski",
             weight_min:"3 kg",
             weight_max:"5 kg",
@@ -41,7 +38,6 @@ const initialState = {
 
         },
         {
-            id:'6',
             name:"Maltańczyk",
             weight_min:"2 kg",
             weight_max:"3 kg",
@@ -49,7 +45,6 @@ const initialState = {
  
         },
         {
-            id:'7',
             name:"Papillion",
             weight_min:"2 kg",
             weight_max:"5 kg",
@@ -57,7 +52,6 @@ const initialState = {
 
         },
         {
-            id:'8',
             name:"Pekińczyk",
             weight_min:"3 kg",
             weight_max:"6 kg",
@@ -65,7 +59,6 @@ const initialState = {
 
         },
         {
-            id:'9',
             name:"Pomeranian",
             weight_min:"2 kg",
             weight_max:"3 kg",
@@ -73,7 +66,6 @@ const initialState = {
 
         },
         {
-            id:'10',
             name:"Pudel Miniaturowy",
             weight_min:"3 kg",
             weight_max:"7 kg",
@@ -81,7 +73,6 @@ const initialState = {
 
         },
         {
-            id:'11',
             name:"Yorkshire Terrier",
             weight_min:"2 kg",
             weight_max:"3 kg",

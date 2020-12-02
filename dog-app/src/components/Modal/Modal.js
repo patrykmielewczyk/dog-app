@@ -1,29 +1,21 @@
 import React from 'react';
 import styles from './Modal.module.css';
+import { connect } from 'react-redux';
+import ReactDom from 'react-dom';
 
-const Modal = ({ show, closeModalHandle }) => {
-    return (
-        <div className={styles.wrapper}
-        style={{
-            opacity: show ? '1' : '0'
-        }}
-        >
-            <div className={styles.header}>
-                <p>Hello im modal hiehie</p>
-                <span className={styles.topClose} onClick={closeModalHandle}>x</span>
-            </div>
-            <div className={styles.content}>
-                <div className={styles.body}>
-                    <h4>Modal</h4>
-                    <p>cosdadasda</p>
-                </div>
-                <div className={styles.footer}>
-                    <button onClick={closeModalHandle} className={styles.close}>Close</button>
-                </div>
-            </div>
+function Modal( { open, onClose, children } ) {
+    if (!open) return null
+
+    return ReactDom.createPortal(
+        <>
+        <div className={styles.overlay}/>
+        <div className={styles.wrapper}>
+            <button onClick={onClose}>close Modal</button>
+            {children}
         </div>
+        </>,
+        document.getElementById('portal')
     )
 }
 
 export default Modal
-

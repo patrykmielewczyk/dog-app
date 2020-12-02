@@ -1,20 +1,12 @@
-import React, {useState} from 'react';
+import React from 'react';
 import Button from '../Button/Button';
 import {NavLink} from 'react-router-dom';
 import styles from './SizeComponent.module.css';
-import Modal from '../Modal/Modal';
-
 
 function SizeComponent() {
-    const [show, setShow] = useState(false);
-
-    const closeModalHandle = () => setShow(false);
-
     return (
         <div className={styles.wrapper}>
             <h1>Select size:</h1>
-            <button onClick={() => setShow(true)}>open modal</button>
-            <Modal show={show} closeModalHandle={closeModalHandle}/>
                 <NavLink exact to ="/miniatureSize">
                     <Button>
                         XS (1 - 7kg)
